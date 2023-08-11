@@ -20,12 +20,14 @@ import herokuIcon from '../assets/images/heroku.png';
 import netlifyIcon from '../assets/images/netlify.png';
 import handlebarsIcon from '../assets/images/handlebars.png';
 import HypeHubProject from './HypeHubProject';
+import FruitPreservesProject from './FruitPreservesProject';
 
 export default function Projects() {
   return (
     <section id="projects">
       <h2 className="section-title">Projects</h2>
       <HypeHubProject />
+      <FruitPreservesProject />
     </section>
   );
 }

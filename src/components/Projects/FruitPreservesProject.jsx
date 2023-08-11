@@ -1,32 +1,22 @@
 import { Link } from 'react-router-dom';
 import SkillIcon from '../../Skills/SkillIcon';
+import jsIcon from '../../assets/images/js.png';
+import htmlIcon from '../../assets/images/html.png';
 import cssIcon from '../../assets/images/css.png';
-import bootstrapIcon from '../../assets/images/bootstrap.png';
-import jsIcon from '../assets/images/js.png';
-import nodeIcon from '../../assets/images/node.png';
-import expressIcon from '../../assets/images/express.png';
-import mysqlIcon from '../../assets/images/mysql.png';
-import sequelizeIcon from '../../assets/images/sequelize.png';
-import handlebarsIcon from '../../assets/images/handlebars.png';
+import tailwindIcon from '../../assets/images/tailwind.png';
+import spotifyIcon from '../../assets/images/spotify.png';
+import ticketmasterIcon from '../../assets/images/ticketmaster.png';
 
-export default function HypeHub() {
+export default function FruitPreservesProject() {
   return (
     <div className="project-container">
-      <h3 className="project-title">HypeHub</h3>
+      <h3 className="project-title">Fruit Preserves</h3>
       <div className="project-icons">
         <SkillIcon
           divClassName="project-icon-div"
-          iconSrc={handlebarsIcon}
-          iconTitle="Handlebars"
-          altText="handlebars icon"
-          iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={nodeIcon}
-          iconTitle="Node"
-          altText="node icon"
+          iconSrc={htmlIcon}
+          iconTitle="HTML 5"
+          altText="html icon"
           iconClassName="project-icon"
           showText={false}
         />
@@ -40,33 +30,9 @@ export default function HypeHub() {
         />
         <SkillIcon
           divClassName="project-icon-div"
-          iconSrc={expressIcon}
-          iconTitle="Express"
-          altText="express icon"
-          iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={mysqlIcon}
-          iconTitle="MySQL"
-          altText="mysql icon"
-          iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={sequelizeIcon}
-          iconTitle="Sequelize"
-          altText="sequelize icon"
-          iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={bootstrapIcon}
-          iconTitle="Bootstrap"
-          altText="bootstrap icon"
+          iconSrc={tailwindIcon}
+          iconTitle="Tailwind"
+          altText="tailwind icon"
           iconClassName="project-icon"
           showText={false}
         />
@@ -78,13 +44,29 @@ export default function HypeHub() {
           iconClassName="project-icon"
           showText={false}
         />
+        <SkillIcon
+          divClassName="project-icon-div"
+          iconSrc={spotifyIcon}
+          iconTitle="Spotify"
+          altText="spotify icon"
+          iconClassName="project-icon"
+          showText={false}
+        />
+        <SkillIcon
+          divClassName="project-icon-div"
+          iconSrc={ticketmasterIcon}
+          iconTitle="Ticketmaster"
+          altText="ticketmaster icon"
+          iconClassName="project-icon"
+          showText={false}
+        />
       </div>
       <p className="project-summary">
-        An interactive application that allows users to document their
-        achievements to easily access and manage.
+        A compact application that provides a quick, easy, and fun way to find
+        new music without being overwhelmed by options.
       </p>
       <a
-        href="https://achieved-it-a7cfbbbfd1a9.herokuapp.com/"
+        href="https://erikbenedict.github.io/fruit-preserves/"
         target="blank"
         rel="noopener noreferrer"
       >
@@ -93,7 +75,7 @@ export default function HypeHub() {
         </button>
       </a>
       <a
-        href="https://github.com/erikbenedict/hype-hub"
+        href="https://github.com/erikbenedict/fruit-preserves"
         target="blank"
         rel="noopener noreferrer"
       >
@@ -101,7 +83,7 @@ export default function HypeHub() {
           Source Code
         </button>
       </a>
-      <Link to="/hypehub">
+      <Link to="/fruitpreserves">
         <button className="source-btn" type="button">
           More Details
         </button>

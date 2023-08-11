@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       // {
       //   path: 'fruitpreserves',
-      //   element: <FruitPreserves />,
+      //   element: <FruitPreservesPage />,
       // },
       // {
       //   path: 'hypehub',
