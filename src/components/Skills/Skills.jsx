@@ -1,4 +1,4 @@
-import SkillIcon from './utils/SkillIcon';
+import SkillIcon from './SkillIcon';
 import reactIcon from '../assets/images/react.png';
 import jsIcon from '../assets/images/js.png';
 import htmlIcon from '../assets/images/html.png';
@@ -28,19 +28,31 @@ export default function Skills() {
             <h3>Front-End</h3>
           </div>
           <div className="skills-icons">
-            <SkillIcon iconSrc={reactIcon} altText="react icon" title="React" />
-            <SkillIcon iconSrc={jsIcon} altText="js icon" title="Javascript" />
-            <SkillIcon iconSrc={htmlIcon} altText="html icon" title="HTML 5" />
-            <SkillIcon iconSrc={cssIcon} altText="css icon" title="CSS 3" />
+            <SkillIcon
+              iconSrc={reactIcon}
+              altText="react icon"
+              iconName="React"
+            />
+            <SkillIcon
+              iconSrc={jsIcon}
+              altText="js icon"
+              iconName="Javascript"
+            />
+            <SkillIcon
+              iconSrc={htmlIcon}
+              altText="html icon"
+              iconName="HTML 5"
+            />
+            <SkillIcon iconSrc={cssIcon} altText="css icon" iconName="CSS 3" />
             <SkillIcon
               iconSrc={tailwindIcon}
               altText="tailwind icon"
-              title="Tailwind CSS"
+              iconName="Tailwind CSS"
             />
             <SkillIcon
               iconSrc={bootstrapIcon}
               altText="bootstrap icon"
-              title="Bootstrap"
+              iconName="Bootstrap"
             />
           </div>
         </div>
@@ -49,27 +61,35 @@ export default function Skills() {
             <h3>Back-End</h3>
           </div>
           <div className="skills-icons">
-            <SkillIcon iconSrc={nodeIcon} altText="node icon" title="Node JS" />
+            <SkillIcon
+              iconSrc={nodeIcon}
+              altText="node icon"
+              iconName="Node JS"
+            />
             <SkillIcon
               iconSrc={expressIcon}
               altText="express icon"
-              title="Express"
+              iconName="Express"
             />
-            <SkillIcon iconSrc={mysqlIcon} altText="mysql icon" title="MySQL" />
+            <SkillIcon
+              iconSrc={mysqlIcon}
+              altText="mysql icon"
+              iconName="MySQL"
+            />
             <SkillIcon
               iconSrc={sequelizeIcon}
               altText="sequelize icon"
-              title="Sequelize"
+              iconName="Sequelize"
             />
             <SkillIcon
               iconSrc={mongodbIcon}
               altText="mongodb icon"
-              title="MongoDB"
+              iconName="MongoDB"
             />
             <SkillIcon
               iconSrc={mongooseIcon}
               altText="mongoose icon"
-              title="Mongoose"
+              iconName="Mongoose"
             />
           </div>
         </div>
@@ -78,27 +98,27 @@ export default function Skills() {
             <h3>Tools</h3>
           </div>
           <div className="skills-icons">
-            <SkillIcon iconSrc={gitIcon} altText="git icon" title="Git" />
+            <SkillIcon iconSrc={gitIcon} altText="git icon" iconName="Git" />
             <SkillIcon
               iconSrc={insomniaIcon}
               altText="insomnia icon"
-              title="Insomnia"
+              iconName="Insomnia"
             />
             <SkillIcon
               iconSrc={graphqlIcon}
               altText="graphql icon"
-              title="GraphQL"
+              iconName="GraphQL"
             />
-            <SkillIcon iconSrc={jestIcon} altText="jest icon" title="Jest" />
+            <SkillIcon iconSrc={jestIcon} altText="jest icon" iconName="Jest" />
             <SkillIcon
               iconSrc={herokuIcon}
               altText="heroku icon"
-              title="Heroku"
+              iconName="Heroku"
             />
             <SkillIcon
               iconSrc={netlifyIcon}
               altText="netlify icon"
-              title="Netlify"
+              iconName="Netlify"
             />
           </div>
         </div>

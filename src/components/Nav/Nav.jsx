@@ -1,4 +1,4 @@
-import Navbar from './utils/Navbar';
+import Navbar from './Navbar';
 
 export default function Nav() {
   return (
