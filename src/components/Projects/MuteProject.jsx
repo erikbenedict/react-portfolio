@@ -5,6 +5,7 @@ import htmlIcon from '../../assets/images/html.png';
 import cssIcon from '../../assets/images/css.png';
 import webpackIcon from '../../assets/images/webpack.png';
 import expressIcon from '../../assets/images/express.png';
+import herokuIcon from '../assets/images/heroku.png';
 
 export default function MuteProject() {
   return (
@@ -48,6 +49,14 @@ export default function MuteProject() {
           iconSrc={webpackIcon}
           iconTitle="Webpack"
           altText="webpack icon"
+          iconClassName="project-icon"
+          showText={false}
+        />
+        <SkillIcon
+          divClassName="project-icon-div"
+          iconSrc={herokuIcon}
+          iconTitle="Heroku"
+          altText="heroku icon"
           iconClassName="project-icon"
           showText={false}
         />

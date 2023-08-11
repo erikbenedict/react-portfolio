@@ -8,6 +8,7 @@ import expressIcon from '../../assets/images/express.png';
 import mysqlIcon from '../../assets/images/mysql.png';
 import sequelizeIcon from '../../assets/images/sequelize.png';
 import handlebarsIcon from '../../assets/images/handlebars.png';
+import herokuIcon from '../assets/images/heroku.png';
 
 export default function HypeHub() {
   return (
@@ -75,6 +76,14 @@ export default function HypeHub() {
           iconSrc={cssIcon}
           iconTitle="CSS 3"
           altText="css icon"
+          iconClassName="project-icon"
+          showText={false}
+        />
+        <SkillIcon
+          divClassName="project-icon-div"
+          iconSrc={herokuIcon}
+          iconTitle="Heroku"
+          altText="heroku icon"
           iconClassName="project-icon"
           showText={false}
         />
