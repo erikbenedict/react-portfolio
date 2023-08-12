@@ -1,66 +1,35 @@
 import { Link } from 'react-router-dom';
-import SkillIcon from '../Skills/SkillIcon';
-import spotifyIcon from '../../assets/images/spotify.png';
-import ticketmasterIcon from '../../assets/images/ticketmaster.png';
 import {
-  jsIcon,
-  htmlIcon,
-  cssIcon,
-  tailwindIcon,
-} from '../../assets/devicons/index';
+  JsIcon,
+  HtmlIcon,
+  CssIcon,
+  TailwindIcon,
+  SpotifyIcon,
+  TicketmasterIcon,
+} from '../Skills/Icons';
 
 export default function FruitPreservesProject() {
   return (
     <div className="project-container">
       <h3 className="project-title">Fruit Preserves</h3>
       <div className="project-icons">
-        <SkillIcon
+        <HtmlIcon
           divClassName="project-icon-div"
-          iconSrc={htmlIcon}
-          iconTitle="HTML 5"
-          altText="html icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <JsIcon divClassName="project-icon-div" iconClassName="project-icon" />
+        <TailwindIcon
           divClassName="project-icon-div"
-          iconSrc={jsIcon}
-          iconTitle="JavaScript"
-          altText="JavaScript icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <CssIcon divClassName="project-icon-div" iconClassName="project-icon" />
+        <SpotifyIcon
           divClassName="project-icon-div"
-          iconSrc={tailwindIcon}
-          iconTitle="Tailwind"
-          altText="tailwind icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <TicketmasterIcon
           divClassName="project-icon-div"
-          iconSrc={cssIcon}
-          iconTitle="CSS 3"
-          altText="css icon"
           iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={spotifyIcon}
-          iconTitle="Spotify"
-          altText="spotify icon"
-          iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={ticketmasterIcon}
-          iconTitle="Ticketmaster"
-          altText="ticketmaster icon"
-          iconClassName="project-icon"
-          showText={false}
         />
       </div>
       <p className="project-summary">
