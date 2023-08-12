@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
-import SkillIcon from '../../Skills/SkillIcon';
-import cssIcon from '../../assets/images/css.png';
-import bootstrapIcon from '../../assets/images/bootstrap.png';
-import jsIcon from '../assets/images/js.png';
-import nodeIcon from '../../assets/images/node.png';
-import expressIcon from '../../assets/images/express.png';
-import mysqlIcon from '../../assets/images/mysql.png';
-import sequelizeIcon from '../../assets/images/sequelize.png';
-import handlebarsIcon from '../../assets/images/handlebars.png';
-import herokuIcon from '../assets/images/heroku.png';
+import SkillIcon from '../Skills/SkillIcon';
+import {
+  jsIcon,
+  cssIcon,
+  bootstrapIcon,
+  nodeIcon,
+  expressIcon,
+  mysqlIcon,
+  sequelizeIcon,
+  herokuIcon,
+  handlebarsIcon,
+} from '../../assets/devicons/index';
 
 export default function HypeHub() {
   return (

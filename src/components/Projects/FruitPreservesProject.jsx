@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
-import SkillIcon from '../../Skills/SkillIcon';
-import jsIcon from '../../assets/images/js.png';
-import htmlIcon from '../../assets/images/html.png';
-import cssIcon from '../../assets/images/css.png';
-import tailwindIcon from '../../assets/images/tailwind.png';
+import SkillIcon from '../Skills/SkillIcon';
 import spotifyIcon from '../../assets/images/spotify.png';
 import ticketmasterIcon from '../../assets/images/ticketmaster.png';
+import {
+  jsIcon,
+  htmlIcon,
+  cssIcon,
+  tailwindIcon,
+} from '../../assets/devicons/index';
 
 export default function FruitPreservesProject() {
   return (

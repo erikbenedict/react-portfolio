@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import SkillIcon from '../../Skills/SkillIcon';
+import SkillIcon from '../Skills/SkillIcon';
 import jsIcon from '../../assets/images/js.png';
 import htmlIcon from '../../assets/images/html.png';
 import cssIcon from '../../assets/images/css.png';
