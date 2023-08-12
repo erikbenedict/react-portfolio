@@ -1,93 +1,50 @@
 import { Link } from 'react-router-dom';
-import SkillIcon from '../Skills/SkillIcon';
 import {
-  jsIcon,
-  cssIcon,
-  bootstrapIcon,
-  nodeIcon,
-  expressIcon,
-  mysqlIcon,
-  sequelizeIcon,
-  herokuIcon,
-  handlebarsIcon,
-} from '../../assets/devicons/index';
+  JsIcon,
+  CssIcon,
+  BootstrapIcon,
+  NodeIcon,
+  ExpressIcon,
+  MysqlIcon,
+  SequelizeIcon,
+  HerokuIcon,
+  HandlebarsIcon,
+} from '../Skills/Icons';
 
 export default function HypeHub() {
   return (
     <div className="project-container">
       <h3 className="project-title">HypeHub</h3>
       <div className="project-icons">
-        <SkillIcon
+        <HandlebarsIcon
           divClassName="project-icon-div"
-          iconSrc={handlebarsIcon}
-          iconTitle="Handlebars"
-          altText="handlebars icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <NodeIcon
           divClassName="project-icon-div"
-          iconSrc={nodeIcon}
-          iconTitle="Node"
-          altText="node icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <JsIcon divClassName="project-icon-div" iconClassName="project-icon" />
+        <ExpressIcon
           divClassName="project-icon-div"
-          iconSrc={jsIcon}
-          iconTitle="JavaScript"
-          altText="JavaScript icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <MysqlIcon
           divClassName="project-icon-div"
-          iconSrc={expressIcon}
-          iconTitle="Express"
-          altText="express icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <SequelizeIcon
           divClassName="project-icon-div"
-          iconSrc={mysqlIcon}
-          iconTitle="MySQL"
-          altText="mysql icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <BootstrapIcon
           divClassName="project-icon-div"
-          iconSrc={sequelizeIcon}
-          iconTitle="Sequelize"
-          altText="sequelize icon"
           iconClassName="project-icon"
-          showText={false}
         />
-        <SkillIcon
+        <CssIcon divClassName="project-icon-div" iconClassName="project-icon" />
+        <HerokuIcon
           divClassName="project-icon-div"
-          iconSrc={bootstrapIcon}
-          iconTitle="Bootstrap"
-          altText="bootstrap icon"
           iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={cssIcon}
-          iconTitle="CSS 3"
-          altText="css icon"
-          iconClassName="project-icon"
-          showText={false}
-        />
-        <SkillIcon
-          divClassName="project-icon-div"
-          iconSrc={herokuIcon}
-          iconTitle="Heroku"
-          altText="heroku icon"
-          iconClassName="project-icon"
-          showText={false}
         />
       </div>
       <p className="project-summary">
