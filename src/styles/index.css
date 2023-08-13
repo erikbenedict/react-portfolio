@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.skill-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.project-icon {
+  width: 20px;
+  height: 20px;
+}
+
+section {
+  margin-top: 4rem;
+}
