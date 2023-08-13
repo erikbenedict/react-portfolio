@@ -13,24 +13,12 @@ export default function FruitPreservesProject() {
     <div className="project-container">
       <h3 className="project-title">Fruit Preserves</h3>
       <div className="project-icons">
-        <HtmlIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <JsIcon divClassName="project-icon-div" iconClassName="project-icon" />
-        <TailwindIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <CssIcon divClassName="project-icon-div" iconClassName="project-icon" />
-        <SpotifyIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <TicketmasterIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
+        <HtmlIcon iconClassName="project-icon" showText={false} />
+        <JsIcon iconClassName="project-icon" showText={false} />
+        <TailwindIcon iconClassName="project-icon" showText={false} />
+        <CssIcon iconClassName="project-icon" showText={false} />
+        <SpotifyIcon iconClassName="project-icon" showText={false} />
+        <TicketmasterIcon iconClassName="project-icon" showText={false} />
       </div>
       <p className="project-summary">
         A compact application that provides a quick, easy, and fun way to find

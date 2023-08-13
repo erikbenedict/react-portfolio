@@ -13,24 +13,12 @@ export default function MuteProject() {
     <div className="project-container">
       <h3 className="project-title">M.U.T.E.</h3>
       <div className="project-icons">
-        <HtmlIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <JsIcon divClassName="project-icon-div" iconClassName="project-icon" />
-        <ExpressIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <CssIcon divClassName="project-icon-div" iconClassName="project-icon" />
-        <WebpackIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <HerokuIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
+        <HtmlIcon iconClassName="project-icon" showText={false} />
+        <JsIcon iconClassName="project-icon" showText={false} />
+        <ExpressIcon iconClassName="project-icon" showText={false} />
+        <CssIcon iconClassName="project-icon" showText={false} />
+        <WebpackIcon iconClassName="project-icon" showText={false} />
+        <HerokuIcon iconClassName="project-icon" showText={false} />
       </div>
       <p className="project-summary">
         {`M.U.T.E. (Minorly Unique Text Editor) is a Progressive Web Application. It is a text editor that runs in the browser, functions offline, and allows note taking with JavaScript syntax highlighting`}

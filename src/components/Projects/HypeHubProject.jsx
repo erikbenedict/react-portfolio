@@ -16,36 +16,15 @@ export default function HypeHub() {
     <div className="project-container">
       <h3 className="project-title">HypeHub</h3>
       <div className="project-icons">
-        <HandlebarsIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <NodeIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <JsIcon divClassName="project-icon-div" iconClassName="project-icon" />
-        <ExpressIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <MysqlIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <SequelizeIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <BootstrapIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
-        <CssIcon divClassName="project-icon-div" iconClassName="project-icon" />
-        <HerokuIcon
-          divClassName="project-icon-div"
-          iconClassName="project-icon"
-        />
+        <HandlebarsIcon iconClassName="project-icon" showText={false} />
+        <NodeIcon iconClassName="project-icon" showText={false} />
+        <JsIcon iconClassName="project-icon" showText={false} />
+        <ExpressIcon iconClassName="project-icon" showText={false} />
+        <MysqlIcon iconClassName="project-icon" showText={false} />
+        <SequelizeIcon iconClassName="project-icon" showText={false} />
+        <BootstrapIcon iconClassName="project-icon" showText={false} />
+        <CssIcon iconClassName="project-icon" showText={false} />
+        <HerokuIcon iconClassName="project-icon" showText={false} />
       </div>
       <p className="project-summary">
         An interactive application that allows users to document their

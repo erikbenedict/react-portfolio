@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <footer className="footer">
-      <a href="#" className="to-top">
-        <i className="fa-solid fa-arrow-up-from-square"></i>
+      <a href="#hero" className="to-top">
+        <i className="fa-solid fa-arrow-up-from-bracket"></i>
       </a>
 
       <ul className="footer-ul">

@@ -29,12 +29,12 @@ export default function Skills() {
             <h3>Front-End</h3>
           </div>
           <div className="skills-icons">
-            <ReactIcon />
-            <JsIcon />
-            <HtmlIcon />
-            <CssIcon />
-            <TailwindIcon />
-            <BootstrapIcon />
+            <ReactIcon iconClassName="skill-icon" />
+            <JsIcon iconClassName="skill-icon" />
+            <HtmlIcon iconClassName="skill-icon" />
+            <CssIcon iconClassName="skill-icon" />
+            <TailwindIcon iconClassName="skill-icon" />
+            <BootstrapIcon iconClassName="skill-icon" />
           </div>
         </div>
         <div className="mb-2 back-end">
@@ -42,12 +42,12 @@ export default function Skills() {
             <h3>Back-End</h3>
           </div>
           <div className="skills-icons">
-            <NodeIcon />
-            <ExpressIcon />
-            <MongodbIcon />
-            <GraphqlIcon />
-            <MysqlIcon />
-            <WebpackIcon />
+            <NodeIcon iconClassName="skill-icon" />
+            <ExpressIcon iconClassName="skill-icon" />
+            <MongodbIcon iconClassName="skill-icon" />
+            <GraphqlIcon iconClassName="skill-icon" />
+            <MysqlIcon iconClassName="skill-icon" />
+            <WebpackIcon iconClassName="skill-icon" />
           </div>
         </div>
         <div className="mb-2 tools">
@@ -55,12 +55,12 @@ export default function Skills() {
             <h3>Tools</h3>
           </div>
           <div className="skills-icons">
-            <GitIcon />
-            <InsomniaIcon />
-            <ApolloIcon />
-            <JestIcon />
-            <HerokuIcon />
-            <NetlifyIcon />
+            <GitIcon iconClassName="skill-icon" />
+            <InsomniaIcon iconClassName="skill-icon" />
+            <ApolloIcon iconClassName="skill-icon" />
+            <JestIcon iconClassName="skill-icon" />
+            <HerokuIcon iconClassName="skill-icon" />
+            <NetlifyIcon iconClassName="skill-icon" />
           </div>
         </div>
       </div>

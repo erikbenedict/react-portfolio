@@ -1,7 +1,8 @@
-import About from '../components/About';
-import Hero from '../components/Hero';
-import Skills from '../components/Skills';
-import Projects from '../components/Projects';
+import About from '../components/About/About';
+import Hero from '../components/Hero/Hero';
+import Skills from '../components/Skills/Skills';
+import Projects from '../components/Projects/Projects';
+import Contact from '../components/Contact/Contact';
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </>
   );
 }

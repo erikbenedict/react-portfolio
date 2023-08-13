@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="homepage-container hidden2" id="hero">
+    <section className="homepage-container pt-16" id="hero">
       <div className="content-div home-content">
         <div>
           <h1>
