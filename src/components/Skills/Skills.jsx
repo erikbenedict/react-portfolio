@@ -12,11 +12,11 @@ import {
   GitIcon,
   GraphqlIcon,
   JestIcon,
-  HerokuIcon,
   WebpackIcon,
   InsomniaIcon,
-  NetlifyIcon,
-  ApolloIcon,
+  VscodeIcon,
+  ChromeIcon,
+  GithubIcon,
 } from './Icons';
 
 export default function Skills() {
@@ -61,11 +61,11 @@ export default function Skills() {
           </div>
           <div className="skills-icons grid grid-cols-2 md:flex md:flex-col md:items-center mb-2">
             <GitIcon iconClassName="skill-icon" divClassName="skill-div" />
+            <GithubIcon iconClassName="skill-icon" divClassName="skill-div" />
+            <VscodeIcon iconClassName="skill-icon" divClassName="skill-div" />
+            <ChromeIcon iconClassName="skill-icon" divClassName="skill-div" />
             <InsomniaIcon iconClassName="skill-icon" divClassName="skill-div" />
-            <ApolloIcon iconClassName="skill-icon" divClassName="skill-div" />
             <JestIcon iconClassName="skill-icon" divClassName="skill-div" />
-            <HerokuIcon iconClassName="skill-icon" divClassName="skill-div" />
-            <NetlifyIcon iconClassName="skill-icon" divClassName="skill-div" />
           </div>
         </div>
       </div>

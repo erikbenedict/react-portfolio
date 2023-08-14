@@ -326,3 +326,45 @@ export function TicketmasterIcon({ divClassName, iconClassName, showText }) {
     />
   );
 }
+
+export function VscodeIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+      iconTitle="VS Code"
+      altText="VS Code Icon"
+      iconName="VS Code"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function ChromeIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg"
+      iconTitle="Chrome Dev Tools"
+      altText="Chrome Icon"
+      iconName="Chrome Dev Tools"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function GithubIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+      iconTitle="GitHub"
+      altText="GitHub Icon"
+      iconName="GitHub"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
