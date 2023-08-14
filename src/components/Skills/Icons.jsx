@@ -5,9 +5,10 @@ import apolloIcon from '../../assets/images/apollo.png';
 import spotifyIcon from '../../assets/images/spotify.png';
 import ticketmasterIcon from '../../assets/images/ticketmaster.png';
 
-export function ReactIcon({ iconClassName, showText }) {
+export function ReactIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
       iconTitle="React"
       altText="React Icon"
@@ -18,9 +19,10 @@ export function ReactIcon({ iconClassName, showText }) {
   );
 }
 
-export function JsIcon({ iconClassName, showText }) {
+export function JsIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
       iconTitle="JavaScript"
       altText="JavaScript Icon"
@@ -31,9 +33,10 @@ export function JsIcon({ iconClassName, showText }) {
   );
 }
 
-export function HtmlIcon({ iconClassName, showText }) {
+export function HtmlIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
       iconTitle="HTML 5"
       altText="HTML 5 Icon"
@@ -44,9 +47,10 @@ export function HtmlIcon({ iconClassName, showText }) {
   );
 }
 
-export function CssIcon({ iconClassName, showText }) {
+export function CssIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
       iconTitle="CSS 3"
       altText="CSS 3 Icon"
@@ -57,9 +61,10 @@ export function CssIcon({ iconClassName, showText }) {
   );
 }
 
-export function TailwindIcon({ iconClassName, showText }) {
+export function TailwindIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
       iconTitle="Tailwind"
       altText="Tailwind Icon"
@@ -70,9 +75,10 @@ export function TailwindIcon({ iconClassName, showText }) {
   );
 }
 
-export function BootstrapIcon({ iconClassName, showText }) {
+export function BootstrapIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
       iconTitle="Bootstrap"
       altText="Bootstrap Icon"
@@ -83,9 +89,10 @@ export function BootstrapIcon({ iconClassName, showText }) {
   );
 }
 
-export function NodeIcon({ iconClassName, showText }) {
+export function NodeIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
       iconTitle="Node JS"
       altText="Node JS Icon"
@@ -96,9 +103,10 @@ export function NodeIcon({ iconClassName, showText }) {
   );
 }
 
-export function ExpressIcon({ iconClassName, showText }) {
+export function ExpressIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
       iconTitle="Express"
       altText="Express Icon"
@@ -109,9 +117,10 @@ export function ExpressIcon({ iconClassName, showText }) {
   );
 }
 
-export function MysqlIcon({ iconClassName, showText }) {
+export function MysqlIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
       iconTitle="MySQL"
       altText="MySQL Icon"
@@ -122,9 +131,10 @@ export function MysqlIcon({ iconClassName, showText }) {
   );
 }
 
-export function SequelizeIcon({ iconClassName, showText }) {
+export function SequelizeIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"
       iconTitle="Sequelize"
       altText="Sequelize Icon"
@@ -135,9 +145,10 @@ export function SequelizeIcon({ iconClassName, showText }) {
   );
 }
 
-export function MongodbIcon({ iconClassName, showText }) {
+export function MongodbIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
       iconTitle="MongoDB"
       altText="MongoDB Icon"
@@ -148,9 +159,10 @@ export function MongodbIcon({ iconClassName, showText }) {
   );
 }
 
-export function GitIcon({ iconClassName, showText }) {
+export function GitIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
       iconTitle="Git"
       altText="Git Icon"
@@ -161,9 +173,10 @@ export function GitIcon({ iconClassName, showText }) {
   );
 }
 
-export function GraphqlIcon({ iconClassName, showText }) {
+export function GraphqlIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
       iconTitle="GraphQL"
       altText="GraphQL Icon"
@@ -174,9 +187,10 @@ export function GraphqlIcon({ iconClassName, showText }) {
   );
 }
 
-export function JestIcon({ iconClassName, showText }) {
+export function JestIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
       iconTitle="Jest"
       altText="Jest Icon"
@@ -187,9 +201,10 @@ export function JestIcon({ iconClassName, showText }) {
   );
 }
 
-export function HerokuIcon({ iconClassName, showText }) {
+export function HerokuIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
       iconTitle="Heroku"
       altText="Heroku Icon"
@@ -200,9 +215,10 @@ export function HerokuIcon({ iconClassName, showText }) {
   );
 }
 
-export function HandlebarsIcon({ iconClassName, showText }) {
+export function HandlebarsIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg"
       iconTitle="Handlebars JS"
       altText="Handlebars JS Icon"
@@ -213,9 +229,10 @@ export function HandlebarsIcon({ iconClassName, showText }) {
   );
 }
 
-export function WebpackIcon({ iconClassName, showText }) {
+export function WebpackIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
       iconTitle="Webpack"
       altText="Webpack Icon"
@@ -226,9 +243,10 @@ export function WebpackIcon({ iconClassName, showText }) {
   );
 }
 
-export function BabelIcon({ iconClassName, showText }) {
+export function BabelIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg"
       iconTitle="Babel"
       altText="Babel Icon"
@@ -239,9 +257,10 @@ export function BabelIcon({ iconClassName, showText }) {
   );
 }
 
-export function InsomniaIcon({ iconClassName, showText }) {
+export function InsomniaIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc={insomniaIcon}
       iconTitle="Insomnia"
       altText="Insomnia Icon"
@@ -252,9 +271,10 @@ export function InsomniaIcon({ iconClassName, showText }) {
   );
 }
 
-export function NetlifyIcon({ iconClassName, showText }) {
+export function NetlifyIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc={netlifyIcon}
       iconTitle="Netlify"
       altText="Netlify Icon"
@@ -265,9 +285,10 @@ export function NetlifyIcon({ iconClassName, showText }) {
   );
 }
 
-export function ApolloIcon({ iconClassName, showText }) {
+export function ApolloIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc={apolloIcon}
       iconTitle="Apollo GraphQL"
       altText="Apollo GraphQL Icon"
@@ -278,9 +299,10 @@ export function ApolloIcon({ iconClassName, showText }) {
   );
 }
 
-export function SpotifyIcon({ iconClassName, showText }) {
+export function SpotifyIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc={spotifyIcon}
       iconTitle="Spotify"
       altText="Spotify Icon"
@@ -291,9 +313,10 @@ export function SpotifyIcon({ iconClassName, showText }) {
   );
 }
 
-export function TicketmasterIcon({ iconClassName, showText }) {
+export function TicketmasterIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
+      divClassName={divClassName}
       iconSrc={ticketmasterIcon}
       iconTitle="Ticketmaster"
       altText="Ticketmaster Icon"

@@ -29,6 +29,14 @@ body {
   height: 70px;
 }
 
+.skill-div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .project-icon {
   width: 20px;
   height: 20px;
