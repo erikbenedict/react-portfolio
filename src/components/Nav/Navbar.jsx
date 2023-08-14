@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '../../assets/images/logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,16 +9,13 @@ export default function Navbar() {
   };
   return (
     <div
-      className="w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 fixed top-0"
+      className="w-full text-gray-700 bg-slate-300 dark-mode:text-gray-200 dark-mode:bg-gray-800 fixed top-0"
       id="navbar"
     >
       <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div className="p-4 flex flex-row items-center justify-between">
-          <a
-            href="#hero"
-            className="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline nav-offset"
-          >
-            Erik Benedict
+          <a href="#hero" className="nav-offset logo-nav">
+            <img src={logo} alt="logo image" />
           </a>
           <button
             className="md:hidden rounded-lg focus:outline-none focus:shadow-outline nav-offset"

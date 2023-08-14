@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container max-w-[65%] mx-auto">
         <Outlet />
       </div>
       <Footer />
