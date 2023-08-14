@@ -6,8 +6,22 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
-  margin-top: 4rem;
+body {
+  background: rgb(161, 161, 170);
+  background: linear-gradient(
+    90deg,
+    rgba(161, 161, 170, 1) 0%,
+    rgba(212, 212, 216, 1) 50%
+  );
+}
+
+#navbar {
+  background: rgb(161, 161, 170);
+  background: linear-gradient(
+    90deg,
+    rgba(161, 161, 170, 1) 0%,
+    rgba(212, 212, 216, 1) 50%
+  );
 }
 
 .skill-icon {
@@ -23,4 +37,8 @@ section {
 .logo-nav {
   width: 50px;
   height: 50px;
+}
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
 }

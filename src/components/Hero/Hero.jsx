@@ -1,18 +1,19 @@
 export default function Hero() {
   return (
-    <section className="homepage-container pt-16 flex flex-col" id="hero">
-      <div className="flex flex-col ">
-        <h1 className="p-2 container">
-          <span className="h1-span-intro font-semibold pl-2">
-            Hi, my name is
-          </span>
+    <section
+      className="homepage-container pt-16 min-h-full mt-32 md:mt-48 xl:mt-64 mb-96 text-center"
+      id="hero"
+    >
+      <div>
+        <h1 className="p-2">
+          <span className="font-semibold">Hi, my name is</span>
           <br />
-          <span className="h1-span-name text-6xl md-text-7xl font-mono font-semibold text-orange-600">
+          <span className="text-5xl md:text-7xl font-mono font-semibold text-amber-700">
             Erik Benedict
           </span>
           <br />
-          <span className="h1-span-description text-4xl md-text-5xl font-medium pl-1">
-            I&rsquo;m a full-stack web developer.
+          <span className="text-4xl md:text-5xl font-medium">
+            I&rsquo;m a full-stack web developer
           </span>
         </h1>
         <div>

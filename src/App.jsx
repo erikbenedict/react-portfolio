@@ -12,23 +12,33 @@ function App() {
       link.addEventListener('click', (event) => {
         event.preventDefault();
         const targetId = link.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
 
-        if (targetElement) {
-          const targetPosition = targetElement.offsetTop;
-
+        if (targetId === '#') {
+          // Scroll to the top of the page
           window.scrollTo({
-            top: targetPosition - navbarHeight,
+            top: 0,
             behavior: 'smooth',
           });
+        } else {
+          const targetElement = document.querySelector(targetId);
+
+          if (targetElement) {
+            const targetPosition = targetElement.offsetTop;
+
+            window.scrollTo({
+              top: targetPosition - navbarHeight,
+              behavior: 'smooth',
+            });
+          }
         }
       });
     });
   }, []);
+
   return (
     <>
       <Navbar />
-      <div className="container max-w-[65%] mx-auto">
+      <div className="container max-w-[75%] md-max-w-[65%] mx-auto font-medium">
         <Outlet />
       </div>
       <Footer />
