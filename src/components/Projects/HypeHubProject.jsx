@@ -14,9 +14,9 @@ import {
 
 export default function HypeHub() {
   return (
-    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto">
+    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-20">
       <div className="md:w-1/2 mb-4 p-2">
-        <h3 className="section-title text-2xl text-center md:text-3xl mb-2">
+        <h3 className="section-title text-2xl text-center md:text-4xl mb-5">
           HypeHub
         </h3>
         <div className="project-icons flex justify-center mb-4">

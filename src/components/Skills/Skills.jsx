@@ -25,7 +25,7 @@ export default function Skills() {
       id="skills"
       className="text-center mb-80 max-w-[75%] md-max-w-[65%] mx-auto"
     >
-      <h2 className="section-title text-3xl md:text-6xl mb-8">Skills</h2>
+      <h2 className="section-title text-3xl md:text-6xl mb-20">Skills</h2>
       <div className="skills-container flex flex-wrap">
         <div className="mb-6 w-full md:w-1/3">
           <div className="section-title text-2xl mb-6 underline underline-offset-4">
