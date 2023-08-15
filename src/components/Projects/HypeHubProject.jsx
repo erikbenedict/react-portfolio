@@ -30,7 +30,7 @@ export default function HypeHub() {
           <CssIcon iconClassName="project-icon mr-1" showText={false} />
           <HerokuIcon iconClassName="project-icon mr-1" showText={false} />
         </div>
-        <div className="p-3 rounded-xl">
+        <div className="p-3 rounded-xl text-center md:text-left">
           <p>
             HypeHub is an interactive application that allows users to document
             and showcase their achievements to reflect on growth, stay
