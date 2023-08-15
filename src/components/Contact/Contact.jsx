@@ -1,16 +1,19 @@
 export default function Contact() {
   return (
     <>
-      <section className="mb-4 contact-container" id="contact">
-        <h2 className="h1-responsive font-weight-bold text-center my-4 contact-header">
-          GET IN TOUCH
+      <section
+        className="p-2 mb-10 max-w-[75%] md-max-w-[65%] mx-auto"
+        id="contact"
+      >
+        <h2 className="section-title text-3xl md:text-6xl text-center mb-14">
+          Get In Touch
         </h2>
-        <p className="text-center w-responsive mx-auto contact-p">
+        <p className="text-center mx-auto section-title text-xl md:text-2xl mb-5">
           Interested in working together? Let&rsquo;s connect!
         </p>
 
         <div className="w-full md:w-96 md:max-w-full mx-auto">
-          <div className="p-6 border border-gray-300 sm:rounded-md">
+          <div className="p-6 border bg-zinc-400 border-zinc-500 sm:rounded-xl">
             <form
               id="contact-form"
               name="contact-form"
@@ -21,7 +24,7 @@ export default function Contact() {
             >
               <input type="hidden" name="form-name" value="contact-form" />
               <label className="block mb-6">
-                <span className="text-gray-700">Your Name</span>
+                <span className="text-zinc-800">Your Name</span>
                 <input
                   type="text"
                   name="name"
@@ -36,12 +39,13 @@ export default function Contact() {
             focus:ring
             focus:ring-indigo-200
             focus:ring-opacity-50
+            pl-2
           "
                   placeholder="Full Name"
                 />
               </label>
               <label className="block mb-6">
-                <span className="text-gray-700">Email Address</span>
+                <span className="text-zinc-800">Email Address</span>
                 <input
                   name="email"
                   type="email"
@@ -56,13 +60,14 @@ export default function Contact() {
             focus:ring
             focus:ring-indigo-200
             focus:ring-opacity-50
+            pl-2
           "
                   placeholder="example@domain.com"
                   required
                 />
               </label>
               <label className="block mb-6">
-                <span className="text-gray-700">Subject</span>
+                <span className="text-zinc-800">Subject</span>
                 <input
                   name="subject"
                   type="text"
@@ -77,13 +82,14 @@ export default function Contact() {
             focus:ring
             focus:ring-indigo-200
             focus:ring-opacity-50
+            pl-2
           "
                   placeholder="Enter your Subject"
                   required
                 />
               </label>
               <label className="block mb-6">
-                <span className="text-gray-700">Message</span>
+                <span className="text-zinc-800">Message</span>
                 <textarea
                   name="message"
                   className="
@@ -97,6 +103,7 @@ export default function Contact() {
             focus:ring
             focus:ring-indigo-200
             focus:ring-opacity-50
+            pl-2
           "
                   rows="5"
                   placeholder="Tell me what you're thinking about..."
