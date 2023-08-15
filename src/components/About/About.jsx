@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="p-2 mb-80 max-w-[75%] md-max-w-[65%] mx-auto"
+      className="p-2 mb-64 max-w-[75%] md-max-w-[65%] mx-auto"
     >
       <h2 className="section-title text-3xl md:text-6xl text-center mb-20">
         About Me

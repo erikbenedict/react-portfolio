@@ -11,7 +11,7 @@ import {
 
 export default function FruitPreservesProject() {
   return (
-    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto">
+    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-20">
       <div className="hidden md:block md:w-1/2 p-3">
         <img
           src={screenshot}
@@ -34,8 +34,8 @@ export default function FruitPreservesProject() {
             showText={false}
           />
         </div>
-        <div>
-          <p className="p-3 rounded-xl">
+        <div className="p-3 rounded-xl">
+          <p>
             The compact nature of this app combined with Spotify&rsquo;s
             existing recommendation function provides a quick, easy, and fun way
             to find new music without being overwhelmed by options. You can
