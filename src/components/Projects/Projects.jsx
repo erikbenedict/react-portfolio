@@ -4,8 +4,10 @@ import MuteProject from './MuteProject';
 
 export default function Projects() {
   return (
-    <section id="projects">
-      <h2 className="section-title">Projects</h2>
+    <section id="projects" className="mb-80">
+      <h2 className="section-title text-3xl md:text-6xl text-center mb-8 max-w-[75%] md-max-w-[65%] mx-auto">
+        Projects
+      </h2>
       {/* <Project3 /> */}
       {/* <BookSearch /> */}
       <HypeHubProject />

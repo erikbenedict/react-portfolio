@@ -21,13 +21,14 @@ import {
 
 export default function Skills() {
   return (
-    <section id="skills" className="text-center mb-80">
-      <h2 className="section-title text-3xl md:text-4xl text-center mb-8">
-        Skills
-      </h2>
+    <section
+      id="skills"
+      className="text-center mb-80 max-w-[75%] md-max-w-[65%] mx-auto"
+    >
+      <h2 className="section-title text-3xl md:text-6xl mb-8">Skills</h2>
       <div className="skills-container flex flex-wrap">
         <div className="mb-6 w-full md:w-1/3">
-          <div className="section-title text-xl mb-6 underline underline-offset-4">
+          <div className="section-title text-2xl mb-6 underline underline-offset-4">
             <h3>Front-End</h3>
           </div>
           <div className="skills-icons grid grid-cols-2 md:flex md:flex-col md:items-center">
@@ -43,7 +44,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="mb-6 w-full md:w-1/3">
-          <div className="section-title text-xl mb-6 underline underline-offset-4">
+          <div className="section-title text-2xl mb-6 underline underline-offset-4">
             <h3>Back-End</h3>
           </div>
           <div className="skills-icons grid grid-cols-2 md:flex md:flex-col md:items-center">
@@ -56,7 +57,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="mb-6 w-full md:w-1/3">
-          <div className="section-title text-xl mb-6 underline underline-offset-4">
+          <div className="section-title text-2xl mb-6 underline underline-offset-4">
             <h3>Tools</h3>
           </div>
           <div className="skills-icons grid grid-cols-2 md:flex md:flex-col md:items-center mb-2">

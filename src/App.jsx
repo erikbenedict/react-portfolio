@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container max-w-[75%] md-max-w-[65%] mx-auto font-medium">
+      <div className="container mx-auto font-medium xl:text-lg">
         <Outlet />
       </div>
       <Footer />

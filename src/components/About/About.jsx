@@ -2,12 +2,15 @@ import headshot from '../../assets/images/headshot.png';
 
 export default function About() {
   return (
-    <section id="about" className="p-2 mb-80">
-      <h2 className="section-title text-3xl md:text-4xl text-center mb-8">
+    <section
+      id="about"
+      className="p-2 mb-80 max-w-[75%] md-max-w-[65%] mx-auto"
+    >
+      <h2 className="section-title text-3xl md:text-6xl text-center mb-20">
         About Me
       </h2>
       <div className="flex flex-col md:flex-row items-center">
-        <div className="xl:text-lg md:w-1/2 mb-4 md:mb-0 p-2">
+        <div className="md:w-1/2 mb-4 md:mb-0 p-2">
           <p className="mb-2">
             Hello! I&rsquo;m Erik Benedict, and I enjoy creating amazing
             experiences for people to enjoy on the internet. My passion is
@@ -35,7 +38,7 @@ export default function About() {
           <img
             src={headshot}
             alt="headshot"
-            className="max-w-xs md:max-w-sm mx-auto"
+            className="max-w-xs md:max-w-sm mx-auto rounded-xl shadow-2xl"
           />
         </div>
       </div>
