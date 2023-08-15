@@ -62,11 +62,18 @@ export default function HypeHub() {
         </div>
       </div>
       <div className="hidden md:block md:w-1/2 p-3">
-        <img
-          src={screenshot}
-          alt="HypeHub screenshot"
-          className="max-w-xs lg:max-w-md mx-auto rounded-xl shadow-2xl"
-        />
+        <a
+          href="https://achieved-it-a7cfbbbfd1a9.herokuapp.com/"
+          target="blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-80"
+        >
+          <img
+            src={screenshot}
+            alt="HypeHub screenshot"
+            className="max-w-xs lg:max-w-md mx-auto rounded-xl shadow-2xl"
+          />
+        </a>
       </div>
     </div>
   );

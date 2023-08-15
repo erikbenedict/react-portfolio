@@ -13,11 +13,18 @@ export default function FruitPreservesProject() {
   return (
     <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-20">
       <div className="hidden md:block md:w-1/2 p-3">
-        <img
-          src={screenshot}
-          alt="Fruit Preserves screenshot"
-          className="max-w-xs lg:max-w-md mx-auto rounded-xl shadow-2xl"
-        />
+        <a
+          href="https://erikbenedict.github.io/fruit-preserves/"
+          target="blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-80"
+        >
+          <img
+            src={screenshot}
+            alt="Fruit Preserves screenshot"
+            className="max-w-xs lg:max-w-md mx-auto rounded-xl shadow-2xl"
+          />
+        </a>
       </div>
       <div className="md:w-1/2 mb-4 p-2">
         <h3 className="section-title text-2xl text-center md:text-4xl mb-5">
