@@ -23,7 +23,7 @@ export default function Hero() {
             className="p-2"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-github text-3xl text-amber-700"></i>
+            <i className="fa-brands fa-github text-3xl text-amber-700 hover:opacity-80"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/erik-benedict-829835286/"
@@ -31,7 +31,7 @@ export default function Hero() {
             className="p-2"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-linkedin text-3xl text-amber-700"></i>
+            <i className="fa-brands fa-linkedin text-3xl text-amber-700 hover:opacity-80"></i>
           </a>
           <a
             href="https://docs.google.com/document/d/1SbyLV4tZle6iL6PTZYrTPR9ZFE2UdRCnC25xpEDLYi8/edit?usp=sharing"
@@ -39,7 +39,7 @@ export default function Hero() {
             className="p-2"
             rel="noreferrer"
           >
-            <i className="fa-regular fa-file text-3xl text-amber-700"></i>
+            <i className="fa-regular fa-file text-3xl text-amber-700 hover:opacity-80"></i>
           </a>
         </div>
       </div>
