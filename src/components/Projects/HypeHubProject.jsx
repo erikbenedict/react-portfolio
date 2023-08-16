@@ -14,7 +14,7 @@ import {
 
 export default function HypeHub() {
   return (
-    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-8 md:mb-20 bg-zinc-500 md:bg-inherit rounded-xl shadow-2xl md:rounded-none md:shadow-none">
+    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-8 md:mb-20 bg-zinc-400 md:bg-inherit border border-zinc-500 md:border-none rounded-xl shadow-2xl md:rounded-none md:shadow-none">
       <div className="md:w-1/2 mb-4 p-2">
         <h3 className="section-title text-2xl text-center md:text-4xl mb-5">
           HypeHub
@@ -30,7 +30,7 @@ export default function HypeHub() {
           <CssIcon iconClassName="project-icon mr-1" showText={false} />
           <HerokuIcon iconClassName="project-icon mr-1" showText={false} />
         </div>
-        <div className="p-3 text-center lg:text-left">
+        <div className="p-3 text-center lg:text-left md:bg-zinc-400 md:border md:border-zinc-500 md:rounded-xl md:shadow-2xl md:mb-4">
           <p>
             HypeHub is an interactive application that allows users to document
             and showcase their achievements to reflect on growth, stay
@@ -47,17 +47,17 @@ export default function HypeHub() {
             target="blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-solid fa-window-restore text-3xl text-amber-500 md:text-amber-700 mr-2"></i>
+            <i className="fa-solid fa-window-restore text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4"></i>
           </a>
           <a
             href="https://github.com/erikbenedict/hype-hub"
             target="blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-github text-3xl text-amber-500 md:text-amber-700 mr-2"></i>
+            <i className="fa-brands fa-github text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4"></i>
           </a>
           <Link to="/hypehub">
-            <i className="fa-solid fa-circle-info text-3xl text-amber-500 md:text-amber-700"></i>
+            <i className="fa-solid fa-circle-info text-3xl lg:text-4xl text-amber-700"></i>
           </Link>
         </div>
       </div>
@@ -71,7 +71,7 @@ export default function HypeHub() {
           <img
             src={screenshot}
             alt="HypeHub screenshot"
-            className="max-w-xs lg:max-w-md mx-auto rounded-xl shadow-2xl"
+            className="max-w-xs lg:max-w-sm xl:max-w-md mx-auto rounded-xl shadow-2xl"
           />
         </a>
       </div>
