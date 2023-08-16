@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section
-      className="homepage-container min-h-full pt-32 md:pt-48 xl:pt-64 mb-96 text-center"
+      className="homepage-container min-h-full pt-40 md:pt-48 xl:pt-64 mb-96 text-center"
       id="hero"
     >
       <div>

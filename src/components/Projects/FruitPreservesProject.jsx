@@ -11,7 +11,7 @@ import {
 
 export default function FruitPreservesProject() {
   return (
-    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-20">
+    <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-8 md:mb-20 bg-zinc-500 md:bg-inherit rounded-xl shadow-2xl md:rounded-none md:shadow-none">
       <div className="hidden md:block md:w-1/2 p-3">
         <a
           href="https://erikbenedict.github.io/fruit-preserves/"
@@ -30,7 +30,7 @@ export default function FruitPreservesProject() {
         <h3 className="section-title text-2xl text-center md:text-4xl mb-5">
           Fruit Preserves
         </h3>
-        <div className="project-icons flex justify-center mb-4">
+        <div className="project-icons flex justify-center mb-2 md:mb-4">
           <HtmlIcon iconClassName="project-icon mr-1" showText={false} />
           <JsIcon iconClassName="project-icon mr-1" showText={false} />
           <TailwindIcon iconClassName="project-icon mr-1" showText={false} />
@@ -41,17 +41,17 @@ export default function FruitPreservesProject() {
             showText={false}
           />
         </div>
-        <div className="p-3 rounded-xl">
+        <div className="p-3 text-center lg:text-left">
           <p>
             The compact nature of this app combined with Spotify&rsquo;s
-            existing recommendation function provides a quick, easy, and fun way
-            to find new music without being overwhelmed by options. You can
-            search using a keyword representing an artist, song, or genre that
-            you already like. Then you can listen to the songs that are
-            recommended. Find a track you like? Add it to your &rsquo;Fresh
-            Picks&rsquo; playlist! From there you can find out if there&rsquo;s
-            an upcoming performance from the artist of the songs you saved, that
-            you might otherwise have missed!
+            existing recommendation API provides a quick, easy, and fun way to
+            find new music without being overwhelmed by options. You can search
+            using a keyword representing an artist, song, or genre that you
+            already like. Then you can listen to the songs that are recommended.
+            Find a track you like? Add it to your &rsquo;Fresh Picks&rsquo;
+            playlist! From there you can find out if there&rsquo;s an upcoming
+            performance from the artist of the songs you saved, that you might
+            otherwise have missed!
           </p>
         </div>
         <div className="flex justify-center">
@@ -60,17 +60,17 @@ export default function FruitPreservesProject() {
             target="blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-solid fa-window-restore text-3xl text-amber-700 mr-2"></i>
+            <i className="fa-solid fa-window-restore text-3xl text-amber-500 md:text-amber-700 mr-2"></i>
           </a>
           <a
             href="https://github.com/erikbenedict/fruit-preserves"
             target="blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-github text-3xl text-amber-700 mr-2"></i>
+            <i className="fa-brands fa-github text-3xl text-amber-500 md:text-amber-700 mr-2"></i>
           </a>
           <Link to="/fruitpreserves">
-            <i className="fa-solid fa-circle-info text-3xl text-amber-700"></i>
+            <i className="fa-solid fa-circle-info text-3xl text-amber-500 md:text-amber-700"></i>
           </Link>
         </div>
       </div>

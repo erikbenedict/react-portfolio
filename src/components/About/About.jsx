@@ -4,18 +4,24 @@ export default function About() {
   return (
     <section
       id="about"
-      className="p-2 mb-64 max-w-[75%] md-max-w-[65%] mx-auto"
+      className="p-2 mb-24 md:mb-64 max-w-[75%] md-max-w-[65%] mx-auto"
     >
-      <h2 className="section-title text-3xl md:text-6xl text-center mb-20">
+      <h2 className="section-title text-4xl md:text-6xl text-center mb-8 md:mb-20">
         About Me
       </h2>
       <div className="flex flex-col md:flex-row items-center">
+        <div className="md:w-1/2 p-3">
+          <img
+            src={headshot}
+            alt="headshot"
+            className="max-w-xxs md:max-w-sm mx-auto rounded-xl shadow-2xl"
+          />
+        </div>
         <div className="md:w-1/2 mb-4 md:mb-0 p-2">
           <p className="mb-2">
-            Hello! I&rsquo;m Erik Benedict, and I enjoy creating amazing
-            experiences for people to enjoy on the internet. My passion is
-            mostly with the front-end, but I do have foundations in the back-end
-            as well.
+            Hello! I&rsquo;m Erik, and I enjoy creating amazing experiences for
+            people to enjoy on the internet. My passion is mostly with the
+            front-end, but I do have foundations in the back-end as well.
           </p>
           <p className="mb-2">
             My journey into web development started where most do... Myspace. I
@@ -33,13 +39,6 @@ export default function About() {
             full-stack programming to build bigger and better solutions for
             real-world problems, and to connect with like-minded developers.
           </p>
-        </div>
-        <div className="md:w-1/2 p-3">
-          <img
-            src={headshot}
-            alt="headshot"
-            className="max-w-xs md:max-w-sm mx-auto rounded-xl shadow-2xl"
-          />
         </div>
       </div>
     </section>

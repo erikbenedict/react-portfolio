@@ -2,10 +2,10 @@ export default function Contact() {
   return (
     <>
       <section
-        className="p-2 mb-10 max-w-[75%] md-max-w-[65%] mx-auto"
+        className="p-2 mb-1 lg:mb-10 max-w-[75%] md-max-w-[65%] mx-auto"
         id="contact"
       >
-        <h2 className="section-title text-3xl md:text-6xl text-center mb-14">
+        <h2 className="section-title text-3xl md:text-6xl text-center mb-8 md:mb-14">
           Get In Touch
         </h2>
         <p className="text-center mx-auto section-title text-xl md:text-2xl mb-5">
