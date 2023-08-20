@@ -15,8 +15,9 @@ export default function Hero() {
               Erik Benedict
             </span>
             <br />
-            <span className="text-4xl md:text-6xl font-medium">
-              Full-stack web developer
+            <span className="text-4xl md:text-5xl font-medium">
+              <span className="text-amber-700">{`[`}</span> Full-stack web
+              developer <span className="text-amber-700">{`]`}</span>
             </span>
           </h1>
           <div>
