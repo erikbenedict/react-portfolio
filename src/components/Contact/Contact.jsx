@@ -1,6 +1,8 @@
+import { Slide } from 'react-awesome-reveal';
+
 export default function Contact() {
   return (
-    <>
+    <Slide direction="right">
       <section
         className="p-2 mb-1 lg:mb-4 xl:mb-10 max-w-[75%] md-max-w-[65%] mx-auto"
         id="contact"
@@ -131,6 +133,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </>
+    </Slide>
   );
 }
