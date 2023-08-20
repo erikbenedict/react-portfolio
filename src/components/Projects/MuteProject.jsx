@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import screenshot from '../../assets/images/mute.png';
 import {
   JsIcon,
@@ -44,9 +44,10 @@ export default function MuteProject() {
           >
             <i className="fa-brands fa-github text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4 hover:opacity-80"></i>
           </a>
-          <Link to="/mute">
+          {/* future link to project page */}
+          {/* <Link to="/mute">
             <i className="fa-solid fa-circle-info text-3xl lg:text-4xl text-amber-700 hover:opacity-80"></i>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="hidden md:block md:w-1/2 p-3">

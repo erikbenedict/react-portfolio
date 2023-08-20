@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import screenshot from '../../assets/images/fruit-preserves.png';
 import {
   JsIcon,
@@ -69,9 +69,10 @@ export default function FruitPreservesProject() {
           >
             <i className="fa-brands fa-github text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4 hover:opacity-80"></i>
           </a>
-          <Link to="/fruitpreserves">
+          {/* future link to project page */}
+          {/* <Link to="/fruitpreserves">
             <i className="fa-solid fa-circle-info text-3xl lg:text-4xl text-amber-700 hover:opacity-80"></i>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
