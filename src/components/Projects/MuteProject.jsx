@@ -50,17 +50,16 @@ export default function MuteProject() {
           </Link> */}
         </div>
       </div>
-      <div className="hidden md:block md:w-1/2 p-3">
+      <div className="hidden md:block md:w-1/2 p-3 screenshot-border-a">
         <a
           href="https://mute-8aface8efda8.herokuapp.com/"
           target="blank"
           rel="noopener noreferrer"
-          className="hover:opacity-80"
         >
           <img
             src={screenshot}
             alt="M.U.T.E. screenshot"
-            className="max-w-xs lg:max-w-md mx-auto rounded-xl shadow-2xl"
+            className="max-w-xs lg:max-w-md mx-auto rounded-xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
           />
         </a>
       </div>
