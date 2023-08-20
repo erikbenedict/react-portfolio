@@ -12,7 +12,10 @@ export default function About() {
           About Me
         </h2>
         <div className="flex flex-col xl:flex-row items-center">
-          <div className="xl:w-1/2 p-3 image-borders">
+          <div
+            className="xl:w-1/2 p-3 headshot-border
+          "
+          >
             <img
               src={headshot}
               alt="headshot"
