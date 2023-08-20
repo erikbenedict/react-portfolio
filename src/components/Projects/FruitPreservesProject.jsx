@@ -12,17 +12,16 @@ import {
 export default function FruitPreservesProject() {
   return (
     <div className="flex flex-col md:flex-row items-center max-w-[75%] md-max-w-[65%] mx-auto mb-8 md:mb-20 bg-zinc-400 md:bg-inherit border border-zinc-500 md:border-none rounded-xl shadow-2xl md:rounded-none md:shadow-none">
-      <div className="hidden md:block md:w-1/2 p-3 md:pl-0 lg:pl-3">
+      <div className="hidden md:block md:w-1/2 p-3 md:pl-0 lg:pl-3 screenshot-border-b">
         <a
           href="https://erikbenedict.github.io/fruit-preserves/"
           target="blank"
           rel="noopener noreferrer"
-          className="hover:opacity-80"
         >
           <img
             src={screenshot}
             alt="Fruit Preserves screenshot"
-            className="max-w-xs lg:max-w-sm xl:max-w-md mx-auto rounded-xl shadow-2xl"
+            className="max-w-xs lg:max-w-sm xl:max-w-md mx-auto rounded-xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
           />
         </a>
       </div>
