@@ -18,12 +18,12 @@ export default function Contact() {
           <div className="p-6 border bg-zinc-400 border-zinc-500 sm:rounded-xl">
             <form
               id="contact-form"
-              name="contact-form"
+              name="contact"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               method="POST"
             >
-              <input type="hidden" name="form-name" value="contact-form" />
+              <input type="hidden" name="form-name" value="contact" />
               <label className="block mb-6">
                 <span className="text-zinc-800">Your Name</span>
                 <input
