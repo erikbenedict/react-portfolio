@@ -22,7 +22,7 @@ export default function Contact() {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               method="POST"
-              action="https://herotofu.com/start"
+              action="https://herotofu.com/76fb0f70-3f07-11ee-a250-532f414d5872"
             >
               <input type="hidden" name="form-name" value="contact-form" />
               <label className="block mb-6">
