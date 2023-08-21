@@ -47,18 +47,18 @@ export default function HypeHub() {
             target="blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-solid fa-window-restore text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4 hover:opacity-80"></i>
+            <i className="fa-solid fa-window-restore text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
           </a>
           <a
             href="https://github.com/erikbenedict/hype-hub"
             target="blank"
             rel="noopener noreferrer"
           >
-            <i className="fa-brands fa-github text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4 hover:opacity-80"></i>
+            <i className="fa-brands fa-github text-3xl lg:text-4xl text-amber-700 mr-2 lg:mr-4 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
           </a>
           {/* future link to project page */}
           {/* <Link to="/hypehub">
-            <i className="fa-solid fa-circle-info text-3xl lg:text-4xl text-amber-700 hover:opacity-80"></i>
+            <i className="fa-solid fa-circle-info text-3xl lg:text-4xl text-amber-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
           </Link> */}
         </div>
       </div>
@@ -71,7 +71,7 @@ export default function HypeHub() {
           <img
             src={screenshot}
             alt="HypeHub screenshot"
-            className="max-w-xs lg:max-w-sm xl:max-w-md mx-auto rounded-xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
+            className="max-w-xs lg:max-w-sm xl:max-w-md mx-auto rounded-xl shadow-2xl transition ease-in-out hover:-translate-y-1 hover:scale-110"
           />
         </a>
       </div>
