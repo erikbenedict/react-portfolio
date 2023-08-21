@@ -4,6 +4,10 @@ import logo from '../../assets/images/logo.png';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -14,8 +18,12 @@ export default function Navbar() {
     >
       <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div className="p-4 flex flex-row items-center justify-between">
-          <a href="#" className="nav-offset logo-nav hover:opacity-80">
-            <img src={logo} alt="logo image" />
+          <a href="#" className="nav-offset logo-nav">
+            <img
+              src={logo}
+              alt="logo image"
+              className="transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            />
           </a>
           <button
             className="md:hidden rounded-lg focus:outline-none focus:shadow-outline nav-offset"
@@ -42,24 +50,28 @@ export default function Navbar() {
           <a
             className="px-4 py-2 mt-2 text-sm md:text-lg font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline nav-offset"
             href="#about"
+            onClick={closeMenu}
           >
             About
           </a>
           <a
             className="px-4 py-2 mt-2 text-sm md:text-lg font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline nav-offset"
             href="#skills"
+            onClick={closeMenu}
           >
             Skills
           </a>
           <a
             className="px-4 py-2 mt-2 text-sm md:text-lg font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline nav-offset"
             href="#projects"
+            onClick={closeMenu}
           >
             Projects
           </a>
           <a
             className="px-4 py-2 mt-2 text-sm md:text-lg font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline nav-offset"
             href="#contact"
+            onClick={closeMenu}
           >
             Contact
           </a>
@@ -68,6 +80,7 @@ export default function Navbar() {
             href="https://docs.google.com/document/d/1SbyLV4tZle6iL6PTZYrTPR9ZFE2UdRCnC25xpEDLYi8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={closeMenu}
           >
             Resume
           </a>
