@@ -24,26 +24,14 @@ export default function About() {
           </div>
           <div className="xl:w-1/2 mb-4 md:mb-0 p-2">
             <p className="mb-2">
-              Hello! I&rsquo;m Erik, and I enjoy creating amazing experiences
-              for people to enjoy on the internet. My passion is mostly with the
-              front-end, but I do have foundations in the back-end as well.
+              Greetings! I&rsquo;m Erik, a passionate Full-Stack Developer with
+              a love for crafting captivating UI&rsquo;s.
             </p>
-            <p className="mb-2">
-              My journey into web development started where most do... Myspace.
-              I felt like a wizard when editing HTML and CSS. But it
-              wasn&rsquo;t until 2021 when I started taking free online courses
-              when I fell in love and it became an obsession. Finally in 2023 I
-              started pursuing the idea of a career as a web developer, and
-              decide to attend UNC Chapel Hill&rsquo;s full-stack coding
-              bootcamp.
-            </p>
-            <p className="mb-2">
-              As a previous self employed individual contractor, I went from
-              fixing up homes to building homepages, finding the same level of
-              creativeness and sense of accomplishment in web development. I am
-              continuously looking to expand my knowledge in front-end and
-              full-stack programming to build bigger and better solutions for
-              real-world problems, and to connect with like-minded developers.
+            <p className="mb-6">
+              Driven by an unquenchable thirst for knowledge, I am dedicated to
+              engineer more ambitious and innovative solutions for real-world
+              challenges, all while fostering meaningful connections with fellow
+              developers who share my passion.
             </p>
             <div className="flex justify-center">
               <a href="#contact">
