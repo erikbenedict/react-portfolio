@@ -37,7 +37,7 @@ export default function About() {
               decide to attend UNC Chapel Hill&rsquo;s full-stack coding
               bootcamp.
             </p>
-            <p>
+            <p className="mb-2">
               As a previous self employed individual contractor, I went from
               fixing up homes to building homepages, finding the same level of
               creativeness and sense of accomplishment in web development. I am
@@ -45,6 +45,14 @@ export default function About() {
               full-stack programming to build bigger and better solutions for
               real-world problems, and to connect with like-minded developers.
             </p>
+            <div className="flex justify-center">
+              <a href="#contact">
+                <button className="bg-amber-700 text-zinc-200 font-bold text-xl py-2 px-4 rounded-lg shadow-2xl inline-flex items-center transition ease-in-out hover:-translate-y-1 hover:scale-110">
+                  <i className="fa-regular fa-address-card pr-1"></i>
+                  <span>Contact Me!</span>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
