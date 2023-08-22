@@ -1,6 +1,31 @@
 import { Slide } from 'react-awesome-reveal';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <Slide direction="right">
       <section
@@ -17,13 +42,12 @@ export default function Contact() {
         <div className="w-full md:w-96 md:max-w-full mx-auto">
           <div className="p-6 border bg-zinc-400 border-zinc-500 sm:rounded-xl">
             <form
+              ref={form}
+              onSubmit={sendEmail}
               id="contact-form"
               name="contact"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
               method="POST"
             >
-              <input type="hidden" name="form-name" value="contact" />
               <label className="block mb-6">
                 <span className="text-zinc-800">Your Name</span>
                 <input
@@ -43,6 +67,7 @@ export default function Contact() {
             pl-2
           "
                   placeholder="Full Name"
+                  required
                 />
               </label>
               <label className="block mb-6">
@@ -68,28 +93,6 @@ export default function Contact() {
                 />
               </label>
               <label className="block mb-6">
-                <span className="text-zinc-800">Subject</span>
-                <input
-                  name="subject"
-                  type="text"
-                  className="
-            block
-            w-full
-            mt-1
-            border-gray-300
-            rounded-md
-            shadow-sm
-            focus:border-indigo-300
-            focus:ring
-            focus:ring-indigo-200
-            focus:ring-opacity-50
-            pl-2
-          "
-                  placeholder="Enter your Subject"
-                  required
-                />
-              </label>
-              <label className="block mb-6">
                 <span className="text-zinc-800">Message</span>
                 <textarea
                   name="message"
@@ -108,6 +111,7 @@ export default function Contact() {
           "
                   rows="5"
                   placeholder="Tell me what you're thinking about..."
+                  required
                 ></textarea>
               </label>
               <div className="mb-6">
@@ -125,7 +129,7 @@ export default function Contact() {
             hover:bg-slate-800
           "
                 >
-                  Submit
+                  Send Message
                 </button>
               </div>
             </form>
