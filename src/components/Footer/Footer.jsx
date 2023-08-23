@@ -2,7 +2,7 @@ import { Slide } from 'react-awesome-reveal';
 
 export default function Footer() {
   return (
-    <Slide direction="right">
+    <Slide direction="right" triggerOnce>
       <footer className="flex justify-center max-w-[75%] md-max-w-[65%] mx-auto mb-10">
         <a href="#" className="to-top">
           <i className="fa-solid fa-arrow-up-from-bracket text-2xl lg:text-3xl xl:text-5xl mr-6 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>

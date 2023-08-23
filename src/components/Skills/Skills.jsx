@@ -23,11 +23,11 @@ import {
 
 export default function Skills() {
   return (
-    <Slide direction="right">
-      <section
-        id="skills"
-        className="text-center mb-24 md:mb-64  max-w-[75%] md-max-w-[65%] mx-auto"
-      >
+    <section
+      id="skills"
+      className="text-center mb-24 md:mb-64  max-w-[75%] md-max-w-[65%] mx-auto"
+    >
+      <Slide direction="right" triggerOnce>
         <h2 className="section-title text-4xl md:text-5xl xl:text-6xl mb-10">
           Skills
         </h2>
@@ -114,7 +114,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-      </section>
-    </Slide>
+      </Slide>
+    </section>
   );
 }
