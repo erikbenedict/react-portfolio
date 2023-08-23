@@ -26,6 +26,8 @@ export default function Contact() {
     e.target.reset();
   };
 
+  // TODO: create "Thank You" modal on submit of contact form
+
   return (
     <Slide direction="right">
       <section
