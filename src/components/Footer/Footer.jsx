@@ -22,7 +22,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/erik-benedict-829835286/"
+          href="https://www.linkedin.com/in/erik-benedict/"
           target="_blank"
           className="icons"
           rel="noreferrer"
