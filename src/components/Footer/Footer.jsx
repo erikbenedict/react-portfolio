@@ -2,8 +2,8 @@ import { Slide } from 'react-awesome-reveal';
 
 export default function Footer() {
   return (
-    <Slide direction="right">
-      <footer className="flex justify-center max-w-[75%] md-max-w-[65%] mx-auto mb-10">
+    <footer className="flex justify-center max-w-[75%] md-max-w-[65%] mx-auto mb-10">
+      <Slide direction="right" triggerOnce>
         <a href="#" className="to-top">
           <i className="fa-solid fa-arrow-up-from-bracket text-2xl lg:text-3xl xl:text-5xl mr-6 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
         </a>
@@ -38,7 +38,7 @@ export default function Footer() {
         >
           <i className="fa-regular fa-file text-2xl lg:text-3xl xl:text-5xl transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
         </a>
-      </footer>
-    </Slide>
+      </Slide>
+    </footer>
   );
 }

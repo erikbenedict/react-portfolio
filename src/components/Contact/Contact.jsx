@@ -29,11 +29,11 @@ export default function Contact() {
   // TODO: create "Thank You" modal on submit of contact form
 
   return (
-    <Slide direction="right">
-      <section
-        className="p-2 mb-1 lg:mb-4 xl:mb-10 max-w-[75%] md-max-w-[65%] mx-auto"
-        id="contact"
-      >
+    <section
+      className="p-2 mb-1 lg:mb-4 xl:mb-10 max-w-[75%] md-max-w-[65%] mx-auto"
+      id="contact"
+    >
+      <Slide direction="right" triggerOnce>
         <h2 className="section-title text-4xl md:text-5xl xl:text-6xl text-center mb-8 xl:mb-10">
           Get In Touch
         </h2>
@@ -137,7 +137,7 @@ export default function Contact() {
             </form>
           </div>
         </div>
-      </section>
-    </Slide>
+      </Slide>
+    </section>
   );
 }
