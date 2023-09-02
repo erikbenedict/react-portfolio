@@ -4,6 +4,7 @@ import netlifyIcon from '../../assets/images/netlify.png';
 import apolloIcon from '../../assets/images/apollo.png';
 import spotifyIcon from '../../assets/images/spotify.png';
 import ticketmasterIcon from '../../assets/images/ticketmaster.png';
+import mongooseIcon from '../../assets/images/mongoose.png';
 
 export function ReactIcon({ divClassName, iconClassName, showText }) {
   return (
@@ -293,6 +294,20 @@ export function ApolloIcon({ divClassName, iconClassName, showText }) {
       iconTitle="Apollo GraphQL"
       altText="Apollo GraphQL Icon"
       iconName="Apollo GraphQL"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function MongooseIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={mongooseIcon}
+      iconTitle="Mongoose"
+      altText="Mongoose Icon"
+      iconName="Mongoose"
       iconClassName={iconClassName}
       showText={showText}
     />

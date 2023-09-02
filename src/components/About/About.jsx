@@ -3,11 +3,11 @@ import { Slide } from 'react-awesome-reveal';
 
 export default function About() {
   return (
-    <Slide direction="right">
-      <section
-        id="about"
-        className="p-2 mb-24 md:mb-64 max-w-[75%] md-max-w-[65%] mx-auto"
-      >
+    <section
+      id="about"
+      className="p-2 mb-24 md:mb-64 max-w-[75%] md-max-w-[65%] mx-auto"
+    >
+      <Slide direction="right" triggerOnce>
         <h2 className="section-title text-4xl md:text-6xl text-center mb-8 md:mb-10 xl:mb-20">
           About Me
         </h2>
@@ -30,8 +30,7 @@ export default function About() {
             <p className="mb-6">
               Driven by an unquenchable thirst for knowledge, I am dedicated to
               engineer more ambitious and innovative solutions for real-world
-              challenges, all while fostering meaningful connections with fellow
-              developers who share my passion.
+              challenges.
             </p>
             <div className="flex justify-center">
               <a href="#contact">
@@ -43,7 +42,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
-    </Slide>
+      </Slide>
+    </section>
   );
 }
