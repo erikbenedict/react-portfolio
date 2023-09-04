@@ -30,7 +30,7 @@ export default function Hero() {
               <i className="fa-brands fa-github text-3xl text-amber-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
             </a>
             <a
-              href="https://www.linkedin.com/in/erik-benedict-829835286/"
+              href="https://www.linkedin.com/in/erik-benedict/"
               target="_blank"
               className="p-2"
               rel="noreferrer"

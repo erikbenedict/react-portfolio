@@ -1,3 +1,4 @@
+import SquadSyncProject from './SquadSyncProject';
 import HypeHubProject from './HypeHubProject';
 import FruitPreservesProject from './FruitPreservesProject';
 import MuteProject from './MuteProject';
@@ -13,6 +14,7 @@ export default function Projects() {
         <Slide direction="right" cascade damping={0.15} triggerOnce>
           {/* <Project3 /> */}
           {/* <BookSearch /> */}
+          <SquadSyncProject />
           <HypeHubProject />
           <FruitPreservesProject />
           <MuteProject />

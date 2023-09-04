@@ -30,8 +30,7 @@ export default function About() {
             <p className="mb-6">
               Driven by an unquenchable thirst for knowledge, I am dedicated to
               engineer more ambitious and innovative solutions for real-world
-              challenges, all while fostering meaningful connections with fellow
-              developers who share my passion.
+              challenges.
             </p>
             <div className="flex justify-center">
               <a href="#contact">
