@@ -1,8 +1,10 @@
 import { Slide } from 'react-awesome-reveal';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ThankYouModal from './ThankYouModal';
 
 export default function Contact() {
+  const [showModal, setShowModal] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,6 +20,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          setShowModal(true);
         },
         (error) => {
           console.log(error.text);
@@ -25,8 +28,6 @@ export default function Contact() {
       );
     e.target.reset();
   };
-
-  // TODO: create "Thank You" modal on submit of contact form
 
   return (
     <section
@@ -138,6 +139,7 @@ export default function Contact() {
           </div>
         </div>
       </Slide>
+      {showModal && <ThankYouModal onClose={() => setShowModal(false)} />}
     </section>
   );
 }
