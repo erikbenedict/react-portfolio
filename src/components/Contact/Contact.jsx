@@ -38,12 +38,12 @@ export default function Contact() {
         <h2 className="section-title text-4xl md:text-5xl xl:text-6xl text-center mb-8 xl:mb-10">
           Get In Touch
         </h2>
-        <p className="text-center mx-auto section-title text-xl md:text-2xl mb-5">
+        <p className="text-center mx-auto section-title text-xl md:text-2xl mb-8">
           Interested in working together? Let&rsquo;s connect!
         </p>
 
         <div className="w-full md:w-96 md:max-w-full mx-auto">
-          <div className="p-6 border bg-zinc-400 border-zinc-500 sm:rounded-xl">
+          <div className="p-6 border bg-zinc-400 border-zinc-500 rounded-xl shadow-xl contact-border">
             <form
               ref={form}
               onSubmit={sendEmail}
@@ -51,7 +51,7 @@ export default function Contact() {
               name="contact"
               method="POST"
             >
-              <label className="block mb-6">
+              <label className="block mb-4">
                 <span className="text-zinc-800">Your Name</span>
                 <input
                   type="text"
@@ -73,7 +73,7 @@ export default function Contact() {
                   required
                 />
               </label>
-              <label className="block mb-6">
+              <label className="block mb-4">
                 <span className="text-zinc-800">Email Address</span>
                 <input
                   name="email"
@@ -95,7 +95,7 @@ export default function Contact() {
                   required
                 />
               </label>
-              <label className="block mb-6">
+              <label className="block mb-4">
                 <span className="text-zinc-800">Message</span>
                 <textarea
                   name="message"
@@ -121,15 +121,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   className="
-            h-10
-            px-5
-            text-slate-100
-            bg-slate-700
-            rounded-lg
-            transition-colors
-            duration-150
-            focus:shadow-outline
-            hover:bg-slate-800
+                  bg-amber-700 text-zinc-200 font-bold text-sm md:text-xl py-2 px-4 rounded-lg shadow-2xl inline-flex items-center transition ease-in-out hover:-translate-y-1 hover:scale-110
           "
                 >
                   Send Message

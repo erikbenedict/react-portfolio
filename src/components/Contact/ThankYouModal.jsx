@@ -9,7 +9,7 @@ export default function ThankYouModal({ onClose }) {
           I will be in touch as soon as possible
         </p>
         <button
-          className="bg-slate-700 text-white px-4 py-2 rounded-lg"
+          className="bg-amber-700 text-zinc-200 font-bold text-sm md:text-xl py-2 px-4 rounded-lg shadow-2xl inline-flex items-center transition ease-in-out hover:-translate-y-1 hover:scale-110"
           onClick={onClose}
         >
           Close

@@ -125,6 +125,33 @@ html {
   position: relative;
 }
 
+.contact-border {
+  position: relative;
+}
+.contact-border::before {
+  content: '';
+  height: 99%;
+  width: calc(100% + 5px);
+  border: 4px solid #d97706;
+  position: absolute;
+  z-index: -1;
+  top: -8px;
+  right: 10px;
+  border-radius: 12px;
+}
+
+.contact-border::after {
+  content: '';
+  height: 99%;
+  width: calc(100% + 5px);
+  border: 2px solid #d97706;
+  position: absolute;
+  z-index: -1;
+  top: -14px;
+  right: 20px;
+  border-radius: 12px;
+}
+
 .section-title {
   font-family: 'Oswald', sans-serif;
 }
