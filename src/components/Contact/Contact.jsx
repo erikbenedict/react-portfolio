@@ -10,10 +10,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
+        process.env.SERVICE_ID,
+        process.env.TEMPLATE_ID,
         form.current,
-        import.meta.env.VITE_PUBLIC_KEY
+        process.env.PUBLIC_KEY
       )
       .then(
         (result) => {
