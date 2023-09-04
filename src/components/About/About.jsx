@@ -34,7 +34,7 @@ export default function About() {
             </p>
             <div className="flex justify-center">
               <a href="#contact">
-                <button className="bg-amber-700 text-zinc-200 font-bold text-xl py-2 px-4 rounded-lg shadow-2xl inline-flex items-center transition ease-in-out hover:-translate-y-1 hover:scale-110">
+                <button className="bg-amber-700 text-zinc-200 font-bold text-md md:text-xl py-2 px-4 rounded-lg shadow-2xl inline-flex items-center transition ease-in-out hover:-translate-y-1 hover:scale-110">
                   <i className="fa-regular fa-address-card pr-1"></i>
                   <span>Contact Me!</span>
                 </button>
