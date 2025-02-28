@@ -24,18 +24,25 @@ export default function About() {
           </div>
           <div className="xl:w-1/2 mb-4 md:mb-0 p-2">
             <p className="mb-2">
-              Greetings! I&rsquo;m Erik, a passionate Full-Stack Developer with
-              a love for crafting captivating UI&rsquo;s.
+              Hey, I&apos;m Erik! A passionate Full-Stack Developer who loves
+              building seamless, intuitive, and high-performing web
+              applications.
             </p>
             <p className="mb-6">
-              Driven by an unquenchable thirst for knowledge, I am dedicated to
-              engineer more ambitious and innovative solutions for real-world
-              challenges.
+              I thrive on solving real-world challenges with clean, efficient
+              code and captivating UI&apos;s. With expertise across frontend,
+              backend, and cloud technologies, I bring ideas to life—whether
+              it&apos;s a sleek user experience or a powerful, scalable system.
+              Always learning, always innovating—let&apos;s build something
+              great together!
             </p>
             <div className="flex justify-center">
               <a href="#contact">
-                <button className="bg-amber-700 text-zinc-200 font-bold text-md md:text-xl py-2 px-4 rounded-lg shadow-2xl inline-flex items-center transition ease-in-out hover:-translate-y-1 hover:scale-110">
-                  <i className="fa-regular fa-address-card pr-1"></i>
+                <button className="bg-amber-600 text-white font-bold text-md md:text-xl py-2 px-4 rounded-lg shadow-2xl inline-flex items-center transition ease-in-out hover:-translate-y-1 hover:scale-110">
+                  <div className="mr-1">
+                    <i className="fa-regular fa-address-card"></i>
+                  </div>
+
                   <span>Contact Me!</span>
                 </button>
               </a>

@@ -3,22 +3,19 @@ import { Slide } from 'react-awesome-reveal';
 import {
   ReactIcon,
   JsIcon,
-  HtmlIcon,
-  CssIcon,
   TailwindIcon,
-  BootstrapIcon,
+  TypeScriptIcon,
+  NextJSIcon,
+  AzureIcon,
   NodeIcon,
   ExpressIcon,
-  MysqlIcon,
+  SQLIcon,
   MongodbIcon,
+  AzureDevopsIcon,
   GitIcon,
-  GraphqlIcon,
   JestIcon,
-  WebpackIcon,
-  InsomniaIcon,
-  VscodeIcon,
-  ChromeIcon,
-  GithubIcon,
+  PostmanIcon,
+  DockerIcon,
 } from './Icons';
 
 export default function Skills() {
@@ -37,23 +34,17 @@ export default function Skills() {
               <h3>Front-End</h3>
             </div>
             <div className="skills-icons grid grid-cols-2 md:flex md:flex-col md:items-center">
-              <Slide cascade damping={0.08} triggerOnce>
-                <ReactIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <JsIcon iconClassName="skill-icon" divClassName="skill-div" />
-                <HtmlIcon iconClassName="skill-icon" divClassName="skill-div" />
-                <CssIcon iconClassName="skill-icon" divClassName="skill-div" />
-                <TailwindIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <BootstrapIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-              </Slide>
+              <ReactIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <NextJSIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <JsIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <TypeScriptIcon
+                iconClassName="skill-icon"
+                divClassName="skill-div"
+              />
+              <TailwindIcon
+                iconClassName="skill-icon"
+                divClassName="skill-div"
+              />
             </div>
           </div>
           <div className="mb-6 w-full md:w-1/3">
@@ -61,29 +52,17 @@ export default function Skills() {
               <h3>Back-End</h3>
             </div>
             <div className="skills-icons grid grid-cols-2 md:flex md:flex-col md:items-center">
-              <Slide cascade damping={0.08} triggerOnce>
-                <NodeIcon iconClassName="skill-icon" divClassName="skill-div" />
-                <ExpressIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <MongodbIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <GraphqlIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <MysqlIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <WebpackIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-              </Slide>
+              <AzureIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <SQLIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <NodeIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <ExpressIcon
+                iconClassName="skill-icon"
+                divClassName="skill-div"
+              />
+              <MongodbIcon
+                iconClassName="skill-icon"
+                divClassName="skill-div"
+              />
             </div>
           </div>
           <div className="mb-6 w-full md:w-1/3">
@@ -91,26 +70,17 @@ export default function Skills() {
               <h3>Tools</h3>
             </div>
             <div className="skills-icons grid grid-cols-2 md:flex md:flex-col md:items-center mb-2">
-              <Slide cascade damping={0.08} triggerOnce>
-                <GitIcon iconClassName="skill-icon" divClassName="skill-div" />
-                <GithubIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <VscodeIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <ChromeIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <InsomniaIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
-                />
-                <JestIcon iconClassName="skill-icon" divClassName="skill-div" />
-              </Slide>
+              <AzureDevopsIcon
+                iconClassName="skill-icon"
+                divClassName="skill-div"
+              />
+              <DockerIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <GitIcon iconClassName="skill-icon" divClassName="skill-div" />
+              <PostmanIcon
+                iconClassName="skill-icon"
+                divClassName="skill-div"
+              />
+              <JestIcon iconClassName="skill-icon" divClassName="skill-div" />
             </div>
           </div>
         </div>

@@ -1,10 +1,5 @@
 import SkillIcon from './SkillIcon';
-import insomniaIcon from '../../assets/images/insomnia.png';
-import netlifyIcon from '../../assets/images/netlify.png';
-import apolloIcon from '../../assets/images/apollo.png';
-import spotifyIcon from '../../assets/images/spotify.png';
-import ticketmasterIcon from '../../assets/images/ticketmaster.png';
-import mongooseIcon from '../../assets/images/mongoose.png';
+import StrapiLogo from '../../assets/images/strapi.png';
 
 export function ReactIcon({ divClassName, iconClassName, showText }) {
   return (
@@ -34,39 +29,11 @@ export function JsIcon({ divClassName, iconClassName, showText }) {
   );
 }
 
-export function HtmlIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-      iconTitle="HTML 5"
-      altText="HTML 5 Icon"
-      iconName="HTML 5"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function CssIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-      iconTitle="CSS 3"
-      altText="CSS 3 Icon"
-      iconName="CSS 3"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
 export function TailwindIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
       iconTitle="Tailwind"
       altText="Tailwind Icon"
       iconName="Tailwind"
@@ -76,14 +43,28 @@ export function TailwindIcon({ divClassName, iconClassName, showText }) {
   );
 }
 
-export function BootstrapIcon({ divClassName, iconClassName, showText }) {
+export function TypeScriptIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-      iconTitle="Bootstrap"
-      altText="Bootstrap Icon"
-      iconName="Bootstrap"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+      iconTitle="TypeScript"
+      altText="TypeScript Icon"
+      iconName="TypeScript"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function NextJSIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+      iconTitle="Next.js"
+      altText="Next.js Icon"
+      iconName="NextJS"
       iconClassName={iconClassName}
       showText={showText}
     />
@@ -97,7 +78,7 @@ export function NodeIcon({ divClassName, iconClassName, showText }) {
       iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
       iconTitle="Node JS"
       altText="Node JS Icon"
-      iconName="Node JS"
+      iconName="NodeJS"
       iconClassName={iconClassName}
       showText={showText}
     />
@@ -118,28 +99,28 @@ export function ExpressIcon({ divClassName, iconClassName, showText }) {
   );
 }
 
-export function MysqlIcon({ divClassName, iconClassName, showText }) {
+export function SQLIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-      iconTitle="MySQL"
-      altText="MySQL Icon"
-      iconName="MySQL"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+      iconTitle="MySQL, PostgreSQL"
+      altText="SQL Icon"
+      iconName="SQL"
       iconClassName={iconClassName}
       showText={showText}
     />
   );
 }
 
-export function SequelizeIcon({ divClassName, iconClassName, showText }) {
+export function AzureIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"
-      iconTitle="Sequelize"
-      altText="Sequelize Icon"
-      iconName="Sequelize"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+      iconTitle="Azure"
+      altText="Azure Icon"
+      iconName="Azure"
       iconClassName={iconClassName}
       showText={showText}
     />
@@ -174,20 +155,6 @@ export function GitIcon({ divClassName, iconClassName, showText }) {
   );
 }
 
-export function GraphqlIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
-      iconTitle="GraphQL"
-      altText="GraphQL Icon"
-      iconName="GraphQL"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
 export function JestIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
@@ -202,182 +169,70 @@ export function JestIcon({ divClassName, iconClassName, showText }) {
   );
 }
 
-export function HerokuIcon({ divClassName, iconClassName, showText }) {
+export function AzureDevopsIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
-      iconTitle="Heroku"
-      altText="Heroku Icon"
-      iconName="Heroku"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg"
+      iconTitle="Azure Devops"
+      altText="Azure Devops Icon"
+      iconName="AzureDevops"
       iconClassName={iconClassName}
       showText={showText}
     />
   );
 }
 
-export function HandlebarsIcon({ divClassName, iconClassName, showText }) {
+export function PostmanIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg"
-      iconTitle="Handlebars JS"
-      altText="Handlebars JS Icon"
-      iconName="Handlebars JS"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+      iconTitle="Postman"
+      altText="Postman Icon"
+      iconName="Postman"
       iconClassName={iconClassName}
       showText={showText}
     />
   );
 }
 
-export function WebpackIcon({ divClassName, iconClassName, showText }) {
+export function DockerIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
-      iconTitle="Webpack"
-      altText="Webpack Icon"
-      iconName="Webpack"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+      iconTitle="Docker"
+      altText="Docker Icon"
+      iconName="Docker"
       iconClassName={iconClassName}
       showText={showText}
     />
   );
 }
 
-export function BabelIcon({ divClassName, iconClassName, showText }) {
+export function ViteIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg"
-      iconTitle="Babel"
-      altText="Babel Icon"
-      iconName="Babel"
+      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+      iconTitle="Vite"
+      altText="Vite Icon"
+      iconName="Vite"
       iconClassName={iconClassName}
       showText={showText}
     />
   );
 }
 
-export function InsomniaIcon({ divClassName, iconClassName, showText }) {
+export function StrapiIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc={insomniaIcon}
-      iconTitle="Insomnia"
-      altText="Insomnia Icon"
-      iconName="Insomnia"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function NetlifyIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc={netlifyIcon}
-      iconTitle="Netlify"
-      altText="Netlify Icon"
-      iconName="Netlify"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function ApolloIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc={apolloIcon}
-      iconTitle="Apollo GraphQL"
-      altText="Apollo GraphQL Icon"
-      iconName="Apollo GraphQL"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function MongooseIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc={mongooseIcon}
-      iconTitle="Mongoose"
-      altText="Mongoose Icon"
-      iconName="Mongoose"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function SpotifyIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc={spotifyIcon}
-      iconTitle="Spotify"
-      altText="Spotify Icon"
-      iconName="Spotify"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function TicketmasterIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc={ticketmasterIcon}
-      iconTitle="Ticketmaster"
-      altText="Ticketmaster Icon"
-      iconName="Ticketmaster"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function VscodeIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-      iconTitle="VS Code"
-      altText="VS Code Icon"
-      iconName="VS Code"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function ChromeIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg"
-      iconTitle="Chrome Dev Tools"
-      altText="Chrome Icon"
-      iconName="Chrome Dev Tools"
-      iconClassName={iconClassName}
-      showText={showText}
-    />
-  );
-}
-
-export function GithubIcon({ divClassName, iconClassName, showText }) {
-  return (
-    <SkillIcon
-      divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-      iconTitle="GitHub"
-      altText="GitHub Icon"
-      iconName="GitHub"
+      iconSrc={StrapiLogo}
+      iconTitle="Strapi"
+      altText="Strapi Icon"
+      iconName="Strapi"
       iconClassName={iconClassName}
       showText={showText}
     />

@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { useEffect } from 'react';
-import Navbar from './components/Nav/Navbar';
+import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -14,7 +14,6 @@ function App() {
         const targetId = link.getAttribute('href');
 
         if (targetId === '#') {
-          // Scroll to the top of the page
           window.scrollTo({
             top: 0,
             behavior: 'smooth',
@@ -37,7 +36,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Nav />
       <div className="container mx-auto font-medium xl:text-lg">
         <Outlet />
       </div>

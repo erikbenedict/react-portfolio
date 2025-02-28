@@ -3,7 +3,7 @@ import { Fade } from 'react-awesome-reveal';
 export default function Hero() {
   return (
     <section
-      className="homepage-container min-h-full pt-40 md:pt-48 xl:pt-80 mb-96 text-center"
+      className="homepage-container min-h-full pt-40 md:pt-48 lg:pt-72 mb-96 text-center"
       id="hero"
     >
       <div>
@@ -21,14 +21,14 @@ export default function Hero() {
             </span>
           </h1>
           <div>
-            <a
+            {/* <a
               href="https://github.com/erikbenedict"
               target="_blank"
               className="p-2"
               rel="noreferrer"
             >
               <i className="fa-brands fa-github text-3xl text-amber-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
-            </a>
+            </a> */}
             <a
               href="https://www.linkedin.com/in/erik-benedict/"
               target="_blank"
@@ -37,14 +37,17 @@ export default function Hero() {
             >
               <i className="fa-brands fa-linkedin text-3xl text-amber-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
             </a>
-            <a
+            <a href="#contact" className="p-2">
+              <i className="fa-solid fa-envelope text-3xl text-amber-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
+            </a>
+            {/* <a
               href="https://docs.google.com/document/d/1SbyLV4tZle6iL6PTZYrTPR9ZFE2UdRCnC25xpEDLYi8/edit?usp=sharing"
               target="_blank"
               className="p-2"
               rel="noreferrer"
             >
               <i className="fa-regular fa-file text-3xl text-amber-700 transition ease-in-out hover:-translate-y-1 hover:scale-110"></i>
-            </a>
+            </a> */}
           </div>
         </Fade>
       </div>

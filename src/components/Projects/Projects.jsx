@@ -1,7 +1,7 @@
-import SquadSyncProject from './SquadSyncProject';
-import HypeHubProject from './HypeHubProject';
-import FruitPreservesProject from './FruitPreservesProject';
-import MuteProject from './MuteProject';
+import VirginBay from './VirginBay';
+import Mindster from './Mindster';
+import Precision from './Precision';
+import AdvantageGraphics from './AdvantageGraphics';
 import { Slide } from 'react-awesome-reveal';
 
 export default function Projects() {
@@ -12,12 +12,10 @@ export default function Projects() {
           Projects
         </h2>
         <Slide direction="right" cascade damping={0.15} triggerOnce>
-          {/* <Project3 /> */}
-          {/* <BookSearch /> */}
-          <SquadSyncProject />
-          <HypeHubProject />
-          <FruitPreservesProject />
-          <MuteProject />
+          <Mindster />
+          <VirginBay />
+          <Precision />
+          <AdvantageGraphics />
         </Slide>
       </Slide>
     </section>
